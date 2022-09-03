@@ -23,5 +23,5 @@ splite('ziad ahmed fawzy love js' , " ");
 let btn = document.getElementById('go');
 
 btn.onclick = function() {
-    window.location.href = "../func_1/index.html";
+    window.location.href = "https://ziadahmedfawzy.github.io/repeat_func/";
 }
