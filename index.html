@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is func for repeat">
+    <title>splite function</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>splite function by ziad</h1>
+    <pre>
+        <span class="red"></span><span class="yellow"></span><span class="green"></span>
+        <code>
+    // funct to splite
+
+    let splite = (string , changeToArray) => {
+        let result = 0
+        for(let i = 0; i &lt; 1000; i++)
+        {
+            if(typeof string[i] == "string")
+            {
+                result = i + 1;
+            }
+        }
+        for(let i = 0; i &lt; result; i++)
+        {
+            if(changeToArray == string[i])
+            {
+                console.log([string[i]]);
+            }
+        }
+    };
+
+    splite('ziad ahmed fawzy love js' , " ");
+        </code>
+    </pre>
+    <button id="go">go to first function</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    background-color: #222;
+    color: #eee;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+pre {
+    width: 50%;
+    height: fit-content;
+    background-color: #444;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    margin: 10px;
+    background-color: red;
+}
+
+.yellow {
+    margin: 10px;
+    margin-left: 25px;
+    background-color: yellow;
+}
+
+.green {
+    margin: 10px;
+    margin-left: 40px;
+    background-color: green;
+}
+
+button {
+    width: 10%;
+    height: fit-content;
+    background-color: #777;
+    color: #fff;
+    border: none;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
